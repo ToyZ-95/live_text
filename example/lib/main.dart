@@ -46,12 +46,13 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _incrementCounter() {
-    if (int.parse(counterLiveTextController.getValue) == 5) {
-      counterLiveTextController.resetValue();
-    } else {
-      counterLiveTextController.setValue =
-          (int.parse(counterLiveTextController.getValue) + 1).toString();
-    }
+    counterLiveTextController.setValue =
+        (int.parse(counterLiveTextController.getValue) + 1).toString();
+  }
+
+  void _decrementCounter() {
+    counterLiveTextController.setValue =
+        (int.parse(counterLiveTextController.getValue) - 1).toString();
   }
 
   void _toggleTimer() {
@@ -136,6 +137,12 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     const Spacer(),
                     FloatingActionButton(
+                      onPressed: _decrementCounter,
+                      tooltip: 'Decrement',
+                      child: const Icon(Icons.remove),
+                    ),
+                    const SizedBox(width: 10),
+                    FloatingActionButton(
                       onPressed: _incrementCounter,
                       tooltip: 'Increment',
                       child: const Icon(Icons.add),
@@ -147,28 +154,6 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
       ),
-      // floatingActionButton: Row(
-      //   children: [
-      //     const Spacer(),
-      //     FloatingActionButton(
-      //       onPressed: _toggleTimer,
-      //       tooltip: 'Start Timer',
-      //       child: const Icon(Icons.timer_outlined),
-      //     ),
-      //     const SizedBox(width: 10),
-      //     FloatingActionButton(
-      //       onPressed: _toggleTimer,
-      //       tooltip: 'Start Timer',
-      //       child: const Icon(Icons.timer_off_outlined),
-      //     ),
-      //     const Spacer(),
-      //     FloatingActionButton(
-      //       onPressed: _incrementCounter,
-      //       tooltip: 'Increment',
-      //       child: const Icon(Icons.add),
-      //     ),
-      //   ],
-      // ),
     );
   }
 }
