@@ -14,9 +14,7 @@ class LiveTextController {
 
   String get getValue => textValueNotifier.value;
 
-  set setValue(String updatedValue) {
-    textValueNotifier.value = updatedValue;
-  }
+  set setValue(String updatedValue) => textValueNotifier.value = updatedValue;
 
   void resetValue() {
     setValue = initialValue;
