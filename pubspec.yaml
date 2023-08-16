@@ -1,8 +1,7 @@
 name: live_text
 description: A flutter package that provides easiest way to update text widget in UI.
-version: 0.0.4
-#homepage:
-repository: https://github.com/ToyZ-95/live_text
+version: 0.0.5
+homepage: https://github.com/ToyZ-95/live_text
 
 environment:
   sdk: ">=3.0.6 <4.0.0"
