@@ -11,19 +11,29 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-# Streamline the task of updating text within the UI. 
+# :star: Updating Text widget made simple :star: 
 
-Have you encountered situations where you simply need to update UI text without dealing with state management techniques? If so, this package is a perfect fit for you.
+Have you stumble upon a situations where you simply need to update UI text without dealing with state management techniques? If so, this package is a perfect fit for you.
 
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- [X] Updates text without any hassle.
+- [X] Provides call back with old and new value of your text widget.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add live_text to your pubspec.yaml file and start making your text live.
+
+## Installation
+
+Just add `live_text` as a [dependency in your pubspec.yaml file](https://flutter.io/using-packages/).
+
+```yaml
+dependencies:
+  live_text: <Latest Version>
+```
+ </br>
 
 ## Usage
 
