@@ -11,6 +11,11 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
+<a href="https://www.buymeacoffee.com/patelasad4u" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+
+
 # :star: Updating Text widget made simple :star: 
 
 Have you stumble upon a situations where you simply need to update UI text without dealing with state management techniques? If so, this package is a perfect fit for you.
@@ -67,14 +72,6 @@ dependencies:
     }
     ```
   
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
 ## Additional information
 
 TODO: Tell users more about the package: where to find more information, how to
