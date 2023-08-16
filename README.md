@@ -49,6 +49,8 @@ dependencies:
  </br>
 
  ## Simple counter example.
+ <img src="https://github.com/ToyZ-95/live_text/raw/main/example/assets/counter.gif" width="250" height="500"/>
+ 
   - Create LiveTextController instance 
       ```dart
       LiveTextController counterLiveTextController = LiveTextController(initialValue: "0");
@@ -74,8 +76,10 @@ dependencies:
     ```
 
  ## Timer example.
+  <img src="https://github.com/ToyZ-95/live_text/raw/main/example/assets/timer.gif" width="250" height="500"/>
  - Following is the full example code for Timer app using live_text
- ```dart
+
+```dart
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -178,11 +182,10 @@ class TimerExample extends StatelessWidget {
     );
   }
 }
-
 ```
   
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+We will be more than happy for your contributions.
+<br />
+Please contribute to [live_text](https://github.com/ToyZ-95/live_text) this github repo.
