@@ -12,3 +12,6 @@
 
 ## 0.0.5
 * Readme Updated
+
+## 0.0.6
+* Made repo public
