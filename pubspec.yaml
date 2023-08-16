@@ -1,7 +1,8 @@
 name: live_text
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+#homepage:
+repository: https://github.com/ToyZ-95/live_text
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
