@@ -11,8 +11,10 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# Streamline the task of updating text within the UI. 
+
+Have you encountered situations where you simply need to update UI text without dealing with state management techniques? If so, this package is a perfect fit for you.
+
 
 ## Features
 
