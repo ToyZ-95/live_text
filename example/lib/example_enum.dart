@@ -1,0 +1,1 @@
+enum ExampleEnum { counter, timer }
