@@ -49,6 +49,8 @@ dependencies:
  </br>
 
  ## Simple counter example.
+ <img src="https://github.com/ToyZ-95/live_text/raw/main/example/assets/counter.gif" width="250" height="500"/>
+ 
   - Create LiveTextController instance 
       ```dart
       LiveTextController counterLiveTextController = LiveTextController(initialValue: "0");
@@ -74,6 +76,7 @@ dependencies:
     ```
 
  ## Timer example.
+  <img src="https://github.com/ToyZ-95/live_text/raw/main/example/assets/timer.gif" width="250" height="500"/>
  - Following is the full example code for Timer app using live_text
  ```dart
 import 'dart:async';
