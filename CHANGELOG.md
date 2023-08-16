@@ -6,3 +6,6 @@
 
 ## 0.0.3
 * Readme Updated
+
+## 0.0.4
+* Readme Updated
