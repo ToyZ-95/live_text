@@ -40,9 +40,21 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     counterLiveTextController = LiveTextController(
-      initialValue: "0",
-    );
-    timerLiveTextController = LiveTextController(initialValue: "00:00");
+        initialValue: "0",
+        onValueChanged: (String oldValue, String newValue) {
+          print("Counter");
+          print("Old Value $oldValue");
+          print("New Value $newValue");
+        });
+
+    timerLiveTextController = LiveTextController(
+        initialValue: "00:00",
+        onValueChanged: (String oldValue, String newValue) {
+          print("Timer");
+
+          print("Old Value $oldValue");
+          print("New Value $newValue");
+        });
   }
 
   void _incrementCounter() {
