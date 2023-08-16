@@ -25,6 +25,7 @@ Have you stumble upon a situations where you simply need to update UI text witho
 
 - [X] Updates text without any hassle.
 - [X] Provides call back with old and new value of your text widget.
+- [X] Reset to initial value whenever you want.
 
 ## Getting started
 
