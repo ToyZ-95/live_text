@@ -37,6 +37,37 @@ dependencies:
 
 ## Usage
 
+```dart
+  import 'package:live_text/live_text.dart';
+```
+ </br>
+
+ ## Simple counter example.
+  - Create LiveTextController instance 
+      ```dart
+      LiveTextController counterLiveTextController = LiveTextController(initialValue: "0");
+     ```
+  - Create LiveText widget and provide LiveTextController that we just created
+    ```dart
+     LiveText(
+                style: Theme.of(context).textTheme.headlineMedium,
+                liveTextController: counterLiveTextController,
+              ),
+    ```
+  - Now provide following call backs on increase and decrease button
+    ```dart
+      void _incrementCounter() {
+    counterLiveTextController.setValue =
+        (int.parse(counterLiveTextController.getValue) + 1).toString();
+    }
+    
+     void _decrementCounter() {
+      counterLiveTextController.setValue =
+          (int.parse(counterLiveTextController.getValue) - 1).toString();
+    }
+    ```
+  
+
 TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
