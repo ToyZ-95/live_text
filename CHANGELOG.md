@@ -15,3 +15,6 @@
 
 ## 0.0.6
 * Made repo public
+
+## 0.0.7
+* Added homepage url
